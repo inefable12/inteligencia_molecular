@@ -23,7 +23,7 @@ st.set_page_config(
 
 @st.cache_resource
 def cargar_modelo():
-    return joblib.load("kmeans_model.pkl")
+    return joblib.load("./SESION_2/kmeans_model.pkl")
 
 
 try:
